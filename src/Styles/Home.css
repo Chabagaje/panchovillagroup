@@ -1,0 +1,199 @@
+.home{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: rgba(37, 97, 121, 0.158);
+}
+
+.text{
+     margin-top: 9vh;
+    margin-bottom: -2.5vh;
+    font-size: 1.5em;
+    font-weight: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 5px solid; 
+    width:42%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    animation: 
+    typing 7s steps(38), cursor .4s step-end  infinite alternate; 
+}
+
+
+.excel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.excell {
+    color: white;
+    width: 100%;
+    font-size: 100%;
+    font-weight: 100%;
+    text-shadow: 0px 2.5px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mainLogo img {
+    margin-top: 5vh;
+    width: 70%;
+    height: 60%;
+    border-radius: 100%;
+    border-style: none;
+    box-shadow: none;
+   
+    
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.sp{
+    /* color: white; */
+    width: 100%;
+    font-size: 80%;
+    font-weight: 0vw;
+}
+
+.subsidiaries{
+    background-color: #002A38;
+    color: white;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom:  10vh;
+   
+}
+
+span{
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    margin-top: -2vh;
+    /* color: white;
+     */
+}
+
+/* cursor blinking features */
+
+@keyframes cursor {
+    50% {border-color: transparent}
+    
+}
+
+/* typing effect */
+
+@keyframes typing{
+    from {width: 0}
+
+}
+
+
+
+/* Media Quieries */
+
+@media screen and (max-width:480px){
+ 
+
+    .container {
+        width: 100%; 
+       font-size: 1rem;
+       font-weight: 60%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+      
+    }
+   
+    .text{
+       width: 100vw; 
+      font-size: 1rem;
+      font-weight: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+     
+   }
+    
+   
+    .excel p{
+       text-align: center;
+   
+    }
+   
+      
+    .sub{
+       width: 100%;
+       font-size: 10px;
+       font-weight: 25px;
+    }
+   
+    .subsidiaries {
+       width: 100%;
+       font-size: 1rem;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       
+    }
+   
+    span{
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+    }
+   
+    
+    .cent{
+       margin-top: -30px;
+       margin-left: 30%;
+       text-align: left;
+    }
+   
+    .cent1{
+       margin-top: -30px;
+       margin-left: 20%;
+       text-align: left;
+    }
+   
+    #x{
+      text-align: left;
+      width: 100%;
+      font-size: 3vw;
+   
+    }  
+   
+    .sp{
+       color: rgba(96, 233, 233, 0.267);
+       text-shadow: 0px 2px 2px rgba(37, 97, 121, 0.158);
+       font-weight: 2rem;
+       font-size: 0.9em;
+       margin-top: 40px;
+    }
+   
+
+ }
+
+
+
+ 

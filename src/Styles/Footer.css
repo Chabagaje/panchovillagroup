@@ -1,0 +1,46 @@
+/* FOOTER CSS SECTION */
+
+.footer{
+    width:100%;
+    height:200%;
+    display:flex;
+    background-color:#121619;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.socialMedia svg{
+    color:white;
+    margin:20px;
+    font-size:70px;
+    cursor:pointer;
+}
+
+.footer p{
+    color: white;
+}
+
+@media screen and (max-width:580px){
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialMedia svg{
+        margin: 5px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .cop{
+        width: 100%;
+        font-size: 90%;
+        font-weight: 70%;
+    }
+    
+}

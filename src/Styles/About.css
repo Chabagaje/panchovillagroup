@@ -1,0 +1,107 @@
+mark{
+    color: purple;
+    font-size:1em;
+    font-weight:1.5em;
+}
+
+.executive, .ceo-desk{
+    width: 100%;
+     font-weight: bolder;
+     font-size: 2vw;
+     text-align: center;
+     
+}
+
+.executive, .ceo-img{
+    margin-top:10vh;
+}
+
+.about-us{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     background-color:  rgba(37, 97, 121, 0.158);
+}
+
+.prg1, .prg2, .prg3{
+    width:70vw;
+    margin-left:15%; 
+     text-align: center;
+}
+
+.ceo-img {
+    width: 40%;
+    height: 400px;
+    border-radius: 520;
+    animation-name: fade;
+    animation-duration: 4s;
+    font-size: 3em;
+    border-radius:15px;
+}
+
+.url{
+    color: rgb(0, 42, 255);
+}
+
+h1{
+    animation-name: fade;
+    animation-duration: 4s;
+    font-size: 3em;
+    font-family:merianda;
+}
+
+
+
+
+@keyframes fade {
+    0% {
+        opacity:0;
+        margin-left:3em;
+    }
+
+    100%{
+        opacity:1
+    }
+
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:480px){
+    .prg1 .prg2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .about-prg {
+        text-align: left;
+    }
+    
+    .executive{
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: 1rem;
+    }
+   
+    #pa{
+        text-align: left;
+    }
+
+    .dive .ceo-img{
+        width: 300px;
+        height: 100%;
+    
+    }
+    
+    .ceo-desk{
+        font-size: 1rem;
+        font-weight: 1rem;
+    }
+
+}
+
+
+
